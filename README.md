@@ -4,8 +4,7 @@ Sean Y. Li
 
 ### Background
 
-Globally, around 60% of all languages are endangered (children will not speak it in 100 years) and 40% are moribund (children already do not speak it). The Endanged Languages Project (https://www.endangeredlanguages.com/)
-provides knowledge and resources for speakers of endangered languages to document, preserve, and teach their languages. However, more robust linguistic analysis is difficult without more training, but can be crucial to deeper understanding and teaching of a language. That's why ELP has partnered with linguists at many universities, to have them donate their time to look at work submitted by people who speak endangered languages. However, we soon ran into the problem of linguistic extremists, conlangers, and trolls submitting requests with real looking data which was wasting the time of linguists all over who were donating their time. Thus, there was a need for a way to filter out the fake data. 
+Globally, around 60% of all languages are endangered (children will not speak it in 100 years) and 40% are moribund (children already do not speak it). The Endanged Languages Project (https://www.endangeredlanguages.com/) provides knowledge and resources for speakers of endangered languages to document, preserve, and teach their languages. However, more robust linguistic analysis is difficult without more training, but can be crucial to deeper understanding and teaching of a language. That's why ELP has partnered with linguists at many universities, to have them donate their time to look at work submitted by people who speak endangered languages. However, we soon ran into the problem of linguistic extremists, conlangers, and trolls submitting requests with real looking data which was wasting the time of linguists all over who were donating their time. Thus, there was a need for a way to filter out the fake data. 
 
 #### Problem Statement
 
@@ -41,3 +40,6 @@ This cleaning left me with 761 samples which I fed down the same pipeline. Surpr
 
 #### Findings and Areas of Further Interest
 A working model for filtering out real and fake linguistic data is possible and could be ready to apply to real crowdsourced data. It would be good to tune it more and maximize sensitivity (minimize false negatives). Getting rid of false negatives is crucial since endangered language speaker populations are often the most vulnerable and underserved. It’s much more important to reduce the possibility of them slipping through the cracks than to manually need to throw out the false positives of conlang data marked as real language data.
+
+
+\*The scenario outlined above is fictional
